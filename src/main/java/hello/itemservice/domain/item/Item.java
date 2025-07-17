@@ -8,12 +8,11 @@ import lombok.Setter;
 //@Getter @Setter
 public class Item {
     private Long id;
-    private  String itemName;
+    private String itemName;
     private Integer price;
     private Integer quantity;
 
-    public Item(Long id) {
-        this.id = id;
+    public Item() {
     }
 
     public Item(String itemName, Integer price, Integer quantity) {
